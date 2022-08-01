@@ -1,0 +1,67 @@
+.jquery-layoutday {
+  height: 100%;
+}
+.jquery-layoutday .events {
+  background-color: #ececec;
+  border-left: 1px solid #D5D5D5;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 10px;
+  position: relative;
+}
+.jquery-layoutday .events .event {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color:#FFF;
+  border: 1px solid #CCCCCC;
+  border-left:4px solid #4b6ea9;
+  display:inline-block;
+  overflow:hidden;
+  position: absolute;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.jquery-layoutday .events .event .title {
+  color: #4B6EA8;
+  font-size: 14px;
+  font-weight: bold;
+  padding:6px 0 6px 6px;
+}
+.jquery-layoutday .events .event .subtitle {
+  color: #fff;
+  font-size: 9px;
+  padding:0 6px;
+}
+.jquery-layoutday .events .event .debug {
+  color: #000000;
+  display: none;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 8px;
+  padding:0 6px;
+}
+.jquery-layoutday .time {
+  display: block;
+  float: left;
+  width: 75px;
+}
+.jquery-layoutday .time ul{
+  margin-right: 10px;
+  margin-top: -10px;
+  padding-left: 0;
+  padding-top: 0;
+}
+.jquery-layoutday .time li {
+  color: #676767;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  padding-right: 5px;
+  text-align: right;
+}
+.jquery-layoutday .time span,
+.jquery-layoutday .time .halfhour {
+  color: #797979;
+  font-size: 8px;
+  font-weight: normal;
+}

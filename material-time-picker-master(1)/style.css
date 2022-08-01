@@ -1,0 +1,30 @@
+@media only screen and (max-width: 750px) {
+    img { max-width: 100%; }
+  }
+
+html, body {
+    height: auto;
+    background-color: rgb(199, 230, 235);
+  }
+
+  /* 予定入れるとこ */
+  .centering-item3{
+    margin-top: -16px;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+
+  body {
+    background-color: #FFF(185, 83, 83);
+    color: #333333;
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+  }
+  
+  #calendar {
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 720px;
+  }
